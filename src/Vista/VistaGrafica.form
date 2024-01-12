@@ -249,25 +249,7 @@
           <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <icon value="recursos/circulo arriba derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="a2fd2" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo arriba derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="aafdb" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo arriba derecha.png"/>
+          <icon value="recursos/BCIRCULO ARRIBA DERECHA.png"/>
           <text value=""/>
         </properties>
       </component>
@@ -276,25 +258,7 @@
           <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <icon value="recursos/circulo arriba izquierda.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="a0e6c" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo arriba izquierda.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="dbf39" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo arriba izquierda.png"/>
+          <icon value="recursos/BCIRCULO ARRIBA IZQUIERDA.png"/>
           <text value=""/>
         </properties>
       </component>
@@ -303,25 +267,7 @@
           <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <icon value="recursos/circulo abajo izquierda.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="da8e2" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo abajo izquierda.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="78acc" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo abajo izquierda.png"/>
+          <icon value="recursos/BCIRCULO ABAJO IZQUIERDA.png"/>
           <text value=""/>
         </properties>
       </component>
@@ -330,108 +276,9 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <background color="-6469"/>
+          <background color="-1640449"/>
           <enabled value="true"/>
-          <icon value="recursos/circulo abajo derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="7d35d" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo abajo derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="39d66" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo abajo derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="f8518" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo arriba izquierda derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="44f52" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo arriba izquierda derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="6be62" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo abajo izquierda derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="575d6" class="javax.swing.JLabel" binding="l03">
-        <constraints>
-          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo abajo izquierda derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="cd43a" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo arriba abajo izquierda.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="2e17e" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo arriba abajo derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="7b159" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo arriba abajo derecha.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="6850d" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo total.png"/>
-          <text value=""/>
-        </properties>
-      </component>
-      <component id="29c23" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="recursos/circulo total.png"/>
+          <icon value="recursos/BCIRCULO ABAJO DERECHA.png"/>
           <text value=""/>
         </properties>
       </component>
@@ -440,25 +287,183 @@
           <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <icon value="recursos/circulo total.png"/>
+          <icon value="recursos/BCIRCULO TOTAL.png"/>
           <text value=""/>
         </properties>
       </component>
-      <component id="9600f" class="javax.swing.JLabel">
+      <component id="454bf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1640449"/>
+          <enabled value="true"/>
+          <icon value="recursos/BCIRCULO ABAJO DERECHA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b4d20" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1640449"/>
+          <enabled value="true"/>
+          <icon value="recursos/BCIRCULO ABAJO DERECHA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ad4a3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO ARRIBA DERECHA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="613b9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO ARRIBA DERECHA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="12d6b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO ARRIBA IZQUIERDA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5288d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO ARRIBA IZQUIERDA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6913f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO ABAJO IZQUIERDA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6a2bd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO ABAJO IZQUIERDA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1057c" class="javax.swing.JLabel">
         <constraints>
           <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <icon value="recursos/circulo total.png"/>
+          <icon value="recursos/BCIRCULO TOTAL.png"/>
           <text value=""/>
         </properties>
       </component>
-      <component id="d728d" class="javax.swing.JLabel">
+      <component id="25650" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO TOTAL.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e06dd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO IZQUIERDA DERECHA ARRIBA.png"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="736b2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO TOTAL.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3b23f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO ARRIBA ABAJO DERECHA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b8f56" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO IZQUIERDA DERECHA ABAJO.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6f69f" class="javax.swing.JLabel">
         <constraints>
           <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <icon value="recursos/circulo arriba abajo izquierda.png"/>
+          <icon value="recursos/BCIRCULO ARRIBA ABAJO IZQUIERDA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c44e1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO ARRIBA ABAJO IZQUIERDA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fd360" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO ARRIBA ABAJO DERECHA.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="592e4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="recursos/BCIRCULO IZQUIERDA DERECHA ARRIBA.png"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="92684" class="javax.swing.JLabel" binding="l03">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-6469"/>
+          <icon value="recursos/BCIRCULO IZQUIERDA DERECHA ABAJO.png"/>
           <text value=""/>
         </properties>
       </component>

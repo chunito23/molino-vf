@@ -53,7 +53,9 @@ public class VistaGrafica extends JFrame implements Ivista{private JPanel VG;
             JLabel labelClickeado = (JLabel) e.getSource();
 
             // Ajustar el tamaño de ambos JLabels
-            System.out.println(labelClickeado.getName());
+            ImageIcon nuevoIcono = new ImageIcon("C:\\Users\\domin\\OneDrive\\Escritorio\\molino-main\\src\\recursos\\circuloNegro.png");
+            labelClickeado.setIcon(nuevoIcono);
+
         }
     }
 }
