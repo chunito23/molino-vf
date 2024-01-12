@@ -15,6 +15,10 @@ public class Controlador implements Iobserver {
         m.conectarJugador(this);
     }
 
+    public int getTurno(){
+        return m.getTurno();
+    }
+
     public void setVista(Ivista vista){
         this.vista = vista;
     }

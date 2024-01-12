@@ -279,7 +279,7 @@
           <background color="-1640449"/>
           <enabled value="true"/>
           <icon value="recursos/BCIRCULO ABAJO DERECHA.png"/>
-          <text value=""/>
+          <text value="00"/>
         </properties>
       </component>
       <component id="45196" class="javax.swing.JLabel">
@@ -464,7 +464,7 @@
         <properties>
           <foreground color="-6469"/>
           <icon value="recursos/BCIRCULO IZQUIERDA DERECHA ABAJO.png"/>
-          <text value=""/>
+          <text value="03"/>
         </properties>
       </component>
     </children>
