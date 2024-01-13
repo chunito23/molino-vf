@@ -42,7 +42,23 @@ public class VistaConsola extends JFrame implements Ivista {
     }
 
     @Override
-    public void mostrar(){
+    public void mostrar(String casilla){
+        textArea1.setText("");
+        for (int i = 0; i < c.getTablero().length; i++) {
+            for (int j = 0; j < c.getTablero().length; j++) {
+                if(c.getTablero()[i][j] == -1 || c.getTablero()[i][j] == -2){
+                    textArea1.append("  -  ");
+                }else{
+                    textArea1.append("  " + String.valueOf(c.getTablero()[i][j])+ "  ");
+                }
+
+            }
+            textArea1.append("\n");
+        }
+    }
+
+    @Override
+    public void iniciar() {
         textArea1.setText("");
         for (int i = 0; i < c.getTablero().length; i++) {
             for (int j = 0; j < c.getTablero().length; j++) {

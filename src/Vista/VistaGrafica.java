@@ -9,24 +9,23 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
+import java.util.Objects;
+
 
 public class VistaGrafica extends JFrame implements Ivista{private JPanel VG;
     private JLabel l00;
     private JLabel l03;
+    private JButton botonInicio;
+    private JLabel caero;
     private Controlador c;
-    private JLabel ultimaLabelClickeado;
-    ImageIcon baseAbajoDerecha = new ImageIcon("C:\\Users\\domin\\OneDrive\\Escritorio\\molino-main\\src\\recursos\\BCIRCULO ABAJO DERECHA.png");
-    ImageIcon j1AbajoDerecha = new ImageIcon("C:\\Users\\domin\\OneDrive\\Escritorio\\molino-main\\src\\recursos\\J1CIRCULO ABAJO DERECHA.png");
-    ImageIcon j2AbajoDerecha = new ImageIcon("C:\\Users\\domin\\OneDrive\\Escritorio\\molino-main\\src\\recursos\\J2CIRCULO ABAJO DERECHA.png");
-    ImageIcon baseIzquierdaDerechaAbajo = new ImageIcon("C:\\Users\\domin\\OneDrive\\Escritorio\\molino-main\\src\\recursos\\BCIRCULO IZQUIERDA DERECHA ABAJO.png");
-    ImageIcon j1IzquierdaDerechaAbajo = new ImageIcon("C:\\Users\\domin\\OneDrive\\Escritorio\\molino-main\\src\\recursos\\J1CIRCULO IZQUIERDA DERECHA ABAJO.png");
-    ImageIcon j2IzquierdaDerechaAbajo = new ImageIcon("C:\\Users\\domin\\OneDrive\\Escritorio\\molino-main\\src\\recursos\\J2CIRCULO IZQUIERDA DERECHA ABAJO.png");
-    ArrayList<ImageIcon> j1iconos = new ArrayList<>();
-    ArrayList<ImageIcon> j2iconos = new ArrayList<>();
+    ArrayList<ImageIcon> Baseiconos = new RecursosIconos().getBaseIcono();
+    ArrayList<ImageIcon> j1iconos = new RecursosIconos().getJ1Icono();
+    ArrayList<ImageIcon> j2iconos = new RecursosIconos().getJ2Icono();
     ArrayList<JLabel> labels = new ArrayList<>();
 
 
     public VistaGrafica(Controlador c) {
+        caero.setVisible(false);
         this.c = c;
         c.setVista(this);
         setLocationRelativeTo(null);
@@ -40,10 +39,13 @@ public class VistaGrafica extends JFrame implements Ivista{private JPanel VG;
         l00.addMouseListener(new LabelClickListener());
         l03.addMouseListener(new LabelClickListener());
 
-        j1iconos.add(j1AbajoDerecha);
-        j1iconos.add(j1IzquierdaDerechaAbajo);
-        j2iconos.add(j2AbajoDerecha);
-        j2iconos.add(j2IzquierdaDerechaAbajo);
+
+        botonInicio.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                c.iniciar();
+            }
+        });
     }
 
     public void establecerNombre(String nombreJugador) {
@@ -51,21 +53,33 @@ public class VistaGrafica extends JFrame implements Ivista{private JPanel VG;
     }
 
     @Override
-    public void mostrar() {
+    public void mostrar(String casilla) {
         int turno = c.getTurno();
+        setBackground(Color.lightGray);
+        caero.setVisible(true);
         if (turno == 1){
+            setBackground(Color.white);
+            caero.setIcon(new ImageIcon( "C:\\Users\\domin\\OneDrive\\Escritorio\\molino-main\\src\\recursos\\j1icono.png"));
             for(int i = 0;i< labels.size();i++){
-                if (labels.get(i) == ultimaLabelClickeado){
-                    ultimaLabelClickeado.setIcon(j1iconos.get(i));
+                if (Objects.equals(labels.get(i).getText(), casilla)){
+                    labels.get(i).setIcon(j1iconos.get(i));
                 }
             }
         }else{
+
             for(int i = 0;i< labels.size();i++){
-                if (labels.get(i) == ultimaLabelClickeado){
-                    ultimaLabelClickeado.setIcon(j2iconos.get(i));
+                setBackground(Color.white);
+                caero.setIcon(new ImageIcon( "C:\\Users\\domin\\OneDrive\\Escritorio\\molino-main\\src\\recursos\\j2icono.png"));
+                if (Objects.equals(labels.get(i).getText(), casilla)){
+                    labels.get(i).setIcon(j2iconos.get(i));
                 }
             }
         }
+    }
+
+    @Override
+    public void iniciar() {
+
     }
 
     @Override
@@ -81,8 +95,6 @@ public class VistaGrafica extends JFrame implements Ivista{private JPanel VG;
         @Override
         public void mouseClicked(MouseEvent e) {
             JLabel labelClickeado = (JLabel) e.getSource();
-            ultimaLabelClickeado = labelClickeado;
-            // Ajustar el tamaño de ambos JLabels
             c.ponerFicha(labelClickeado.getText());
         }
     }

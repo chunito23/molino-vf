@@ -3,6 +3,8 @@ package Controlador;
 import Modelo.*;
 import Vista.Ivista;
 
+import java.util.ArrayList;
+
 public class Controlador implements Iobserver {
 
     private IModelo m;
@@ -40,11 +42,13 @@ public class Controlador implements Iobserver {
     }
 
     @Override
-    public void update(Object evento) {
-        vista.mostrar();
-        switch ((Eventos) evento){
+    public void update(Object cambios) {
+        ArrayList<Object> cambio = (ArrayList<Object>) cambios;
+        String casilla = (String) cambio.get(1);
+        vista.mostrar(casilla);
+        switch ((Eventos) cambio.get(0)){
             case inicio:
-                vista.mostrar();
+                vista.mostrar(casilla);
                 if (this.jugador.Getid() == m.getTurno()) {
                     vista.MostrarTexto("es tu turno jugador " + this.jugador.Getid() + "\n");
                 }

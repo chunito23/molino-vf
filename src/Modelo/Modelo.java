@@ -6,7 +6,6 @@ public class Modelo implements IModelo{
     private ArrayList<Iobserver> observadores = new ArrayList();
     private Jugador jugador1;
     private Jugador jugador2;
-
     private Eventos estado;
     private int Turno;
     private int fichasTotales;
@@ -49,7 +48,10 @@ public class Modelo implements IModelo{
     @Override
     public void iniciar(Eventos eventos) {
         cambiarTurno();
-        notificar(eventos);
+        ArrayList<Object> cambios = new ArrayList<>();
+        cambios.add(estado);
+        cambios.add("nada");
+        notificar((Object) cambios);
         estado = Eventos.ponerFicha;
     }
 
@@ -79,7 +81,12 @@ public class Modelo implements IModelo{
             notificar(Eventos.quitarFicha);
         }else{
             cambiarTurno();
-            notificar(estado);
+            String casilla = String.valueOf(fila) + String.valueOf(columna);
+            System.out.println(casilla);
+            ArrayList<Object> cambios = new ArrayList<>();
+            cambios.add(estado);
+            cambios.add(casilla);
+            notificar((Object) cambios);
         }
 
 

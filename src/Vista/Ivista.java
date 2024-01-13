@@ -1,7 +1,9 @@
 package Vista;
 
 public interface Ivista {
-    void mostrar();
+    void mostrar(String casilla);
+
+    void iniciar();
 
     void MostrarTexto(String texto);
 
